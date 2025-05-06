@@ -1,0 +1,45 @@
+#logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-left: 125px;
+}
+html {
+    background-color: #1E1E20;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+h1, h2, h3, h4 {
+    color: #b6b6b6;
+}
+p {
+    color: #AAAAAA;
+}
+.button {
+    background-color: #1d4ed8; /* bleu foncé */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.button:hover {
+    background-color: #2563eb; /* bleu plus clair au survol */
+}
+  
+.comp-text {
+    color: #b6b6b6;
+}
+
+.h1 {
+    position: relative;
+    top: 110px;
+}
+  
+  
